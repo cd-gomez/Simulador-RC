@@ -143,7 +143,7 @@ function setup() {
   for (const k of ['sel', 'len', 'area', 'sp']) { simEls.push(ctrl[k].s); if (ctrl[k].inp) simEls.push(ctrl[k].inp); }
   loadProg();
 
-  setCartoon(false);          // siempre empieza en estilo clásico
+  setCartoon(true);   
   selectComp(null);
   refreshUI();
 }
